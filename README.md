@@ -368,7 +368,7 @@ ThemeService.ApplyTheme("Light");
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE.txt).
+This project is licensed under the [MIT License](./LICENSE.md).
 
 ## Feedback & Contributions
 
