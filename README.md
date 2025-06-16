@@ -1,4 +1,4 @@
-# ThemeResources (v1.0.16-alpha1)
+# ThemeResources (v1.0.17-alpha1)
 
 Killuas.UI.Theming is a flexible, component-based theming system for **WinUI 3**. It provides a structured, declarative, and fully bindable way to manage app appearance — supporting real-time and runtime theme switching.
 
@@ -302,6 +302,14 @@ ThemeService.ApplyTheme("Light");
 | `ThemeMode`                                                        | Specifies the operating mode of the theming system (Single, Modular, Hybrid).                                     |
 | `ThemePart`                                                        | Defines the types of ThemeDictionaryCollections, e.g. Brushes, Corners, Localizations, etc.                       |
 
+### `ThemeMode` Properties
+
+| Property                                                           | Description                                                                                                       |
+|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| ``SingleDictionary``                                                   | is an all-in-one collection mode where everything is handled in one place.                                        |
+| ``ModularDictionaries``                                                | splits things up into separate modules, so each specific theme has its own collection.                            |
+| ``HybridDictionaries``                                                 | is a mix of both - combining the all-in-one way with separate modules.                                            |
+
 ### `ThemeDictionaryCollection` Properties (in `ThemeResources`)
 
 | Property                                                           | Description                                                                                                       |
@@ -368,7 +376,11 @@ ThemeService.ApplyTheme("Light");
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE.md).
+See the [LICENSE](./LICENSE.md) file for details.
+
+## Changelog
+
+See [CHANGELOG](./CHANGELOG.md)
 
 ## Feedback & Contributions
 
