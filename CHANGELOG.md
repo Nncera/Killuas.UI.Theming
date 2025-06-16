@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.17-alpha1] - 2025-06-16
+
+- Improved overall documentation clarity.
+- Changelog and GitHub links integrated into `README.md`.
+- Dedicated `NUGETREADME.md` for NuGet.org added.
+- Extended explanation of `ThemeMode` properties.
+
 ## [1.0.16-alpha1] - 2025-06-04
 
 ### Added
